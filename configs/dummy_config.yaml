@@ -1,0 +1,7 @@
+# Aşama 0 duman testi: DDP + fp16 + checkpoint/resume zinciri
+batch_size: 128   # global; GPU başına batch_size / world_size
+total_steps: 300
+log_every: 50
+ckpt_every: 100
+lr: 1.0e-3
+seed: 0

@@ -1,0 +1,6 @@
+# torch/torchvision Kaggle'da CUDA build'iyle hazır geliyor; pip onları yeniden kurmasın diye sadece alt sınır
+torch>=2.1
+torchvision
+pyyaml>=6.0
+tqdm
+wandb
